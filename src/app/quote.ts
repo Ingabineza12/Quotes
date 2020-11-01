@@ -1,4 +1,4 @@
 export class Quote {
     id: number;
-    author: string;
+    saying: string;
 }
