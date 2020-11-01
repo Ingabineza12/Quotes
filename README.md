@@ -1,10 +1,19 @@
 # Quotes
+## Author
+Deborah Mugiraneza Ingabire
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0. And it help you enter some Quotes 
+## Description
+This project show and allow user to add Quotes after you can upvote and downvote any quote you like or you unlike. this project can delete any quote you want by clicking on the button of click. and you can be able to see the day or month past after the quote is been posted. This project was generated with Angular CLI version 10.2.0
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Technologies used
+Javascript
+Angular as framework
+Html
+Css
 
 ## Code scaffolding
 
