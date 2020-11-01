@@ -19,6 +19,15 @@ Css<br>
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Set up Instruction
+Open the terminal<br>
+Install Angular in the terminal<br>
+Create a project folder<br>
+Install Boostrap<br>
+Run the server<br>
+run the project using the link give by the serve http://localhost:4200/<br>
+This project was generated with Angular CLI version 10.2.0 <br>
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
