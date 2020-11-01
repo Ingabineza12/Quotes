@@ -3,6 +3,8 @@
 
 .container{
     background-color: rgba(236, 125, 81, 0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1,h2{
@@ -13,4 +15,13 @@ h1,h2{
 #first{
 background-color:rgba(22, 12, 7, 0.5);
 color: wheat;
+}
+.endings{
+    text-align: center;
+    padding-top: 60px;
+}
+h4{
+    font-family: 'Itim', cursive;
+    color: white;
+    font-size: large;
 }

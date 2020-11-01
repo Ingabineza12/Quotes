@@ -5,25 +5,24 @@
         <div class="form-group">
   
             <label for="author">Author:</label>
-            <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
+            <input type="text" class="form-control" id="author" placeholder="Enter Author..." [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
             <div [hidden]="author.valid || author.pristine" class="alert alert-warning">
              <p>Author name required</p>
             </div>
-        
         </div>
 
         <div class="form-group">
   
             <label for="saying">Saying:</label>
-            <textarea class="form-control" id="saying" rows="4" [(ngModel)]="newQuote.saying" name="saying" #saying='ngModel' required></textarea>
-          <div [hidden]="saying.valid || saying.pristine" class="alert alert-warning">
-            <p>Saying is required</p>
-          </div>
-  
+            <textarea class="form-control" id="saying" placeholder="Enter Quote..." rows="4" [(ngModel)]="newQuote.saying" name="saying" #saying='ngModel' required></textarea>
+            <div [hidden]="saying.valid || saying.pristine" class="alert alert-warning">
+              <p>Saying is required</p>
+            </div>
         </div>
+        
         <div class="form-group">
             <label for="time">Time read:</label>
-            <input type='date' id="time" [(ngModel)]="newQuote.readDate" name="readDate" #readDate='ngModel'required>
+            <input type='date' id="time" [(ngModel)]="newQuote.readDate" name="readDate" #readDate='ngModel' required>
           <div [hidden]="readDate.valid || readDate.pristine" class="alert alert-warning">
             <p>Date is required</p>
           </div>
