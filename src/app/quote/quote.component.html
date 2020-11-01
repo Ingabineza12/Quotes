@@ -4,7 +4,8 @@
         <div *ngFor='let quote of quotes;let i = index'>
          <li>{{quote.saying}} read on {{quote.readDate|date|uppercase}}</li> 
          <button (click)='toggleDetails(i)'>Toggle Details</button>
-         <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote' (isRead) = 'readQuote($event,i)'></app-quote-detail>
+         <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote' (isRead) = 'upvoteQuote($event,i)'></app-quote-detail>
+
         </div>
     </ul>
 

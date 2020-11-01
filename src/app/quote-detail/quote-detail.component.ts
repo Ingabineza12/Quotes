@@ -11,7 +11,17 @@ export class QuoteDetailComponent implements OnInit {
   @Input() quote: Quote;
   @Output() isRead = new EventEmitter<boolean>();
 
-  quoteRead(read:boolean){
+  upvote=0;
+  downvote=0;
+
+  quoteUpvote(){
+    this.upvote++;
+  }
+  quoteDownvote(){
+    this.downvote--;
+  }
+
+  quoteDelete(read:boolean){
     this.isRead.emit(read);
   }
   constructor() { }

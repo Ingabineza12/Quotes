@@ -1,5 +1,15 @@
-<p>
-    {{quote.author}}
-</p>
-<button (click)= 'quoteRead(true)'>Read</button>
+<p>By {{quote.author}}</p>
 <p>This quote was read in {{quote.readDate|dateCount}} days back</p>
+<p>{{upvote}}</p>
+<p>{{downvote}}</p>
+
+
+
+<button (click)= 'quoteUpvote()'>Upvote Quote</button>
+<button (click)= 'quoteDownvote()'>Downvote Quote</button>
+<button (click)= 'quoteDelete(true)'>Delete Quote</button>
+
+
+
+
+
