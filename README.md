@@ -10,10 +10,10 @@ This project show and allow user to add Quotes after you can upvote and downvote
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Technologies used
-Javascript
-Angular as framework
-Html
-Css
+Javascript<br>
+Angular as framework<br>
+Html<br>
+Css<br>
 
 ## Code scaffolding
 
