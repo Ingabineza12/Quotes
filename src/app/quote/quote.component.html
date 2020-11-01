@@ -1,15 +1,20 @@
 <div class="container">
-    <h1>Inspiring Quotes</h1>
+    <h1 class="text-center">Writing inspiring Quotes</h1>
         <hr>
         <div class="row">
             <div class="col-md-6">
                 <div *ngFor='let quote of quotes;let i = index'>
                     <div>
                         <h4 id={{i}}>{{quote.saying}} read on {{quote.readDate|date|uppercase}}</h4>
-                        <button (click)='toggleDetails(i)' class="btn btn-outline-success">Toggle Details</button>
+                        <button (click)='toggleDetails(i)' class="btn btn-outline-success">See more</button>
                     </div>
                 <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote' (isRead) = 'deleteQuote($event,i)'></app-quote-detail>
                 </div>
+            </div>
+        
+
+            <div class="col-md-6">
+                <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
             </div>
         </div> 
 </div> 

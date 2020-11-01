@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.container{
+    background-color: rgba(236, 125, 81, 0.5);
+}
+
+h1,h2{
+    padding-bottom: 70px;
+    font-family: 'Itim', cursive;
+}
