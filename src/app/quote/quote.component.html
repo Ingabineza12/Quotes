@@ -2,7 +2,7 @@
     <h1 class="text-center">Writing inspiring Quotes</h1>
         <hr>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="first">
                 <div *ngFor='let quote of quotes;let i = index'>
                     <div>
                         <h4 id={{i}}>{{quote.saying}} read on {{quote.readDate|date|uppercase}}</h4>

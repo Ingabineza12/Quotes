@@ -9,3 +9,8 @@ h1,h2{
     padding-bottom: 70px;
     font-family: 'Itim', cursive;
 }
+
+#first{
+background-color:rgba(22, 12, 7, 0.5);
+color: wheat;
+}
